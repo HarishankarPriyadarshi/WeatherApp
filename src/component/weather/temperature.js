@@ -60,7 +60,7 @@ const Temperature = () => {
 
   useEffect(() => {
     getWeatherInfo();
-  },[]);
+  },[2000]);
 
   return (
     <>
